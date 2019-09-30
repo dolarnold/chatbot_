@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+    <title>Queries</title>
+    <head><link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}"></head>
+    <body>
+        <div id="bodybox">
+            <div id="chatborder">
+        <div class="user" role="alert">User:{{user_input}}</div><br><br>
+        <div class="cc" role="alert">Customer care:{{response}}</div><br><br>
+            </div>
+        <form action="/process" method="POST">
+            <input type="text" name="user_input" placeholder="Me: " size="60"><br><br>
+            <button type=submit class="btn">Send</button>
+        </form>
+        </div>
+    </body>
+</html>

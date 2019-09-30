@@ -1,0 +1,214 @@
+body{
+  background-color: #0b1645;
+}
+div.login_container {
+    background-color: #ffffff;
+    margin-left: 30%;
+    padding: 3.5%;
+    border-radius: 5px;
+    width: 22%;
+    display: inline-block;
+}
+.login_form{
+    padding: 30px 27px 30px;
+    display: block;
+    width: 36px;
+    position: relative;
+    margin: 10px;
+}
+
+.login-name{
+    height: 40px;
+    width: 575%;}
+
+.input-button{
+      width: 228px;
+      margin: -25px 0 18px 12%;
+      height: 50px;
+      background-color: #1078f2;
+      font-weight: 500;
+      font-size: 18px;
+      color: #d4d9f4;
+      font-family: 'Halvetica Neue', 'Arial',sans-serif;
+      border-radius: 8px; 
+}
+.input-button:hover {
+  background-color: #0e5cb6;
+}
+
+.input-button:active{
+    border: 3.5px;
+    border-color: #1078f2;
+    border-style: solid;
+    border-width: medium;
+    box-sizing: padding-box;
+}
+
+@media screen and (min-width:321px) and
+(max-width:380px){
+
+div.login_container {
+width: 80%;
+margin-left: 2%;}}
+
+
+@media screen and (min-width:381px) and
+(max-width:425px){
+
+  div.login_container {
+  width: 78%;
+  margin-left: 2%;}}
+
+@media screen and (min-width:426px) and
+(max-width:480px){
+
+  div.login_container {
+  width: 70%;
+  margin-left: 2%;}}
+
+@media screen and (min-width:481px) and
+(max-width:525px){
+
+  div.login_container {
+  width: 65%;
+  margin-left: 2%;}}
+
+  @media screen and (min-width:526px) and
+  (max-width:580px){
+
+    div.login_container {
+    width: 55%;
+    margin-left: 20%;}}
+
+    @media screen and (min-width:581px) and
+    (max-width:620px){
+
+      div.login_container {
+      width: 52%;
+      margin-left: 30%;}}
+
+  @media screen and (min-width:621px) and
+    (max-width: 680px){
+
+      div.login_container {
+      width: 48%;
+      margin-left: 30%;}}
+
+      @media screen and (min-width:681px) 
+       and (max-width: 725px){
+
+        div.login_container {
+          width: 47%;
+          margin-left: 30%;}}
+
+ @media screen and (min-width:726px) and
+        (max-width: 780px){
+
+      div.login_container {
+          width: 41%;
+          margin-left: 30%;}}
+
+@media screen and (min-width:781px) and
+(max-width: 820px){
+
+          div.login_container {
+         width: 38%;
+          margin-left: 30%;}}
+
+@media screen and (min-width:821px) and
+    (max-width: 880px){
+
+      div.login_container {
+     width: 39%;
+    margin-left: 30%;}}
+
+@media screen and (min-width:881px) and
+  (max-width: 920px){
+
+    div.login_container {
+      width: 32%;
+      margin-left: 30%;
+      float: none;}}
+
+@media screen and (min-width:921px) and
+    (max-width: 980px){
+
+        div.login_container {
+          width: 30%;
+         margin-left: 30%;}}
+
+  @media screen and (min-width:981px) and
+  (max-width: 1020px){
+
+    div.login_container {
+      width: 29%;
+     margin-left: 30%;
+     float: none;}}
+
+@media screen and (min-width:1021px) and
+(max-width: 1080px){
+
+  div.login_container {
+  width: 27%;
+   margin-left: 30%;
+   float: none;}}
+
+@media screen and (min-width:1081px) and
+(max-width: 1120px){
+
+  div.login_container {
+width: 28%;
+  margin-left: 30%;
+    float: none;}}
+
+@media screen and (min-width:1121px) and
+  (max-width: 1200px) {
+    
+div.login_container {
+  width: 25%;
+  margin-left: 30%;
+  float: left;}}
+   
+@media screen and (min-width:1201px) and
+  (max-width: 1315px) {
+    
+  div.login_container {
+  width: 23%;
+  margin-left: 30%;
+    float: none;}}
+
+    
+@media screen and (min-width:1316px) and
+  (max-width: 1500px) {
+    
+div.login_container {
+  width: 20%;
+  margin-left: 30%;
+    float: none;}}
+
+@media screen and (min-width:1501px) and
+  (max-width: 1725px) {
+    
+div.login_container {
+  width: 19%;
+  margin-left: 35%;
+    float: none;
+    }}
+@media screen and (min-width:1726px) and
+  (max-width: 1850px) {
+    
+div.login_container {
+  width: 16%;
+  margin-left: 35%;
+    float: none;
+    }}
+
+
+@media screen and (min-width:1851px) and
+  (max-width: 1920px) {
+    
+div.login_container {
+  width: 15%;
+  margin-left: 35%;
+    float: none;
+    }}

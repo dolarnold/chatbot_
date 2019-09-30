@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Admin login</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='admin.css') }}">
+    </head>
+
+    <body>
+        <div class="login_container">
+        <form action="/login" method="POST" class="login_form">
+            Username:<br>
+            <input type="text" name="username" value="{{request.form.username}}"
+                   class="login-name" ><br><br>
+            Password:<br>
+            <input type="password" name="password" value="{{request.form.password}}"class="login-name" ><br><br><br>
+            <input type="submit" value="Login" class="input-button">
+        </form>
+        {% if error %}
+        <p><strong>Error:</strong> {{ error }}
+        {% endif %}
+        </div>
+    </body>
+</html>

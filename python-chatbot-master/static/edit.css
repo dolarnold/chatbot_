@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: #0b1645;
+}
+p,pre{
+    color:white;
+}
+
+#delete,#edit,#logout,#view{
+  background-color: white; /* Green */
+  color: blue;
+  width: 250px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    
+}

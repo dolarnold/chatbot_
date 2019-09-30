@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+        
+    </head>
+
+    <body>
+        <div id="mid">
+            <h1>ZETECH UNIVERSITY</h1>
+            <em>Invent your future</em><br><br>
+            
+            <form action="/redirect" method="POST">
+            <input type="submit" value="Talk to us" formtarget="_blank">
+            </form>
+            
+            <form action="/admin" method="POST">
+                <input type="submit" value="Admin" formtarget="_blank">
+            </form>
+        </div>
+    </body>
+</html>

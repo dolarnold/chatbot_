@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Admin panel</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='edit.css') }}">
+    </head>
+    <body>
+        <h1>Admin Panel</h1>
+        <form action="/buttons" method="POST">
+            <input type="submit" value="Delete data" name="Delete_button" id="delete"> 
+        </form>
+        
+        
+        <form action="/edit" method="POST">
+            <input type="submit" value="Edit data" name="edit_button" id="edit">
+        </form>
+        
+        
+        <form action="/signout" method="POST">
+            <input type="submit" value="logout" name="logout_button" id="logout">
+         </form>
+        
+        
+        <form action="/view" method="POST">
+            <input type="submit" name="view_button" value="view" id="view">
+        </form>
+        
+        
+        <p><strong>Message:{{message}}</strong></p>
+        <pre>unresponded questions:{{content}}</pre>
+    </body>
+</html>
